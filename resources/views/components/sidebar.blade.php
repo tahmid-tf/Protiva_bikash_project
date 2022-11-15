@@ -50,6 +50,31 @@
 
            {{-- -------------------------------------------------- Blog ------------------------------------------------------- --}}
 
+           {{-- -------------------------------------------------- Activity ------------------------------------------------------- --}}
+
+           <!-- Heading -->
+           {{-- <div class="sidebar-heading"> --}}
+           {{--    Current Projects --}}
+           {{-- </div> --}}
+
+           <!-- Nav Item - Pages Collapse Menu -->
+           <li class="nav-item">
+               <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Activity"
+                   aria-expanded="true" aria-controls="Activity">
+                   <i class="fas fa-fw fa-cog"></i>
+                   <span>Blogs</span>
+               </a>
+               <div id="Activity" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                   <div class="bg-white py-2 collapse-inner rounded">
+                       <h6 class="collapse-header">Components:</h6>
+                       <a class="collapse-item" href="{{ route('activity.create') }}">Add Activity</a>
+                       <a class="collapse-item" href="{{ route('activity.index') }}">View All Activities</a>
+                   </div>
+               </div>
+           </li>
+
+           {{-- -------------------------------------------------- Activity ------------------------------------------------------- --}}
+
 
 
 
