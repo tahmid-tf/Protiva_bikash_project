@@ -21,6 +21,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('tt', function(){
-    return view('admin.admin-panel');
-});
+
